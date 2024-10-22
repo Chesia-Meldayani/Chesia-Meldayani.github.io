@@ -1,0 +1,91 @@
+#card {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+}
+
+#card2 {
+  background-color: rgb(85, 241, 13);
+  max-width: 50%;
+  height: 100px;
+}
+
+#card2 div {
+  background-color: bisque;
+  width: 100%;
+}
+
+#card3 {
+  background-color: blue;
+  min-height: 200px;
+  /*tidak akan menggunakan widht 50px karena batas minimal 200px */
+  width: 80px;
+  color: aqua;
+}
+
+#container {
+  background-color: blueviolet;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+#card4 {
+  background-color: brown;
+  color: aliceblue;
+  width: 50%;
+  height: 100%;
+}
+
+#link1 {
+  background-color: burlywood;
+  display: inline;
+}
+
+#link2 {
+  background-color: cadetblue;
+  display: inline;
+}
+
+#link3 {
+  display: block;
+}
+
+#inline,
+#block,
+#inline-block {
+  width: 50px;
+  height: 20px;
+  background-color: chartreuse;
+}
+
+#inline {
+  display: inline;
+}
+
+#block {
+  display: block;
+}
+
+#inline-block {
+  display: inline-block;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.flex-card {
+  width: 100px;
+  height: 200px;
+  background-color: coral;
+  color: rgb(6, 201, 250);
+  font-size: 60px;
+  margin: 60px;
+}
+
+.flex-card:nth-child(2) {
+  height: 100px;
+}

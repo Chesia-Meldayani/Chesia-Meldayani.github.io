@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pemograman web minggu ke 6</title>
+  </head>
+  <body>
+    <div id="card">
+      <!--'id=""' itu fungsinya untuk nandain style di css, jadi kalo kita mau edit apa2 gitu di css nya, kita perlu id sebagai 'identitas' nya-->
+      <p>Dimension</p>
+    </div>
+
+    <div id="card2">
+      <div>
+        <p>Max-width and Max-height</p>
+      </div>
+    </div>
+
+    <div id="card3">
+      <p>Minimal height and width</p>
+    </div>
+
+    <div id="container">
+      <div id="card4">Relative Dimension</div>
+    </div>
+
+    <!--default display is inline-->
+    <a href="#" id="Link1">elemen inline</a>
+    <a href="#" id="Link2">elemen inline</a>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <a href="#" id="link3">Tenetur</a>
+      Obcaecati, fuga ratione incidunt atque provident.
+      <!--kalau msih berupa "link3" itu tulisannya masih berantakan dan ga sejajarlah dibilang -->
+    </p>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <a href="#" id="inline">Tenetur</a>
+      Obcaecati, fuga ratione incidunt atque provident.
+      <!--nah kalau "inline" itu dia tulisannya jadi sejajar, tapi inline itu belum bisa menerima dimensi/dimension-->
+    </p>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <a href="#" id="block">Tenetur</a>
+      Obcaecati, fuga ratione incidunt atque provident.
+      <!--kalau "block" itu udah bisa nerima dimensi/dimension, tapi tulisannya jadi ga sejajar gitu, jadi hasilnya berantakan gitu loh -->
+    </p>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <a href="#" id="inline-block">Tenetur</a>
+      Obcaecati, fuga ratione incidunt atque provident.
+      <!--nah ini yg ditunggu2 "inline-block" si dia ini bisa nerima dimensi.dimension tapi tulisannya tetep sejajar dan rapi, muhehehe-->
+    </p>
+
+    <h1>Flexible Box</h1>
+    <div id="flex-container">
+      <div class="flex-card">1</div>
+      <div class="flex-card">2</div>
+      <div class="flex-card">3</div>
+    </div>
+  </body>
+</html>
